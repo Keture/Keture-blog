@@ -1,16 +1,10 @@
 ---
-name: Tails Azimuth
+name: Keture
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+email: info@keture.com
+twitter: https://twitter.com/keturecom
+linkedin: https://www.linkedin.com/company/keture
+github: https://github.com/keture
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Keture, a software company based on Mannar, is up and coming small entity to impact the community with little manpower unlike big tech giants around the world. Keture is always keen on transforming itself according to the current trends and focusing on the best practices taken from the industry to solve problems. Keture desperately wants to ship secure and robust products which can be scalable at a reasonable cost.
