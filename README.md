@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt='hero logo' src="https://raw.githubusercontent.com/hanancs/Keture-Logos/main/keture.png" width="50%" height="50%" />
+<img alt='hero logo' src="https://raw.githubusercontent.com/Keture/Keture-Logos/main/keture.png" width="50%" height="50%" />
 
 </div>
 
