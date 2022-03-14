@@ -4,6 +4,7 @@ date: '2022-03-14'
 tags: ['API', 'REST', 'SOAP']
 draft: false
 summary: API - Application Programming Interface
+authors: ['ben']
 ---
 
 API - Application Programming Interface
