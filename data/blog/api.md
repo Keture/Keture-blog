@@ -15,7 +15,7 @@ If you are that person still looking for a better conclusion on topic API, I don
 # What exactly is API?
 
 In simple terms, when two devices or applications needs to have a connection or talk to each other for sharing resources(data or functionalities) this is where API comes into the picture. If you want to integrate with Web APIs, you need to have a look on API documentation/specification of respective site . According to Wiki, [A document or standard that describes how to build such a connection or interface is called an _API specification_.](https://en.wikipedia.org/wiki/API#:~:text=A%20document%20or%20standard%20that%20describes%20how%20to%20build%20such%20a%20connection%20or%20interface%20is%20called%20an%20API%20specification.)
-You may happen to see many often this API Specification while browsing dev sites. Otherwise you have to dig little bit deeper to find this(not really 😉). Here are some decent API documentation examples FYI.
+You may happen to see many times API Specification while browsing dev sites. Otherwise you have to dig little bit deeper to find this(not really 😉) out. Here are some decent API Documentation Examples FYI.
 
 - [Stripe](https://stripe.com/docs/api)
 - [Twillio](https://www.twilio.com/docs/usage/api)
