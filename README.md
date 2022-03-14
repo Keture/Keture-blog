@@ -6,7 +6,7 @@
 
 <h1 align="center">Keture Blog</h1>
 
-<p align="center">A Repo for Keture Blogs</p>
+<p align="center">A Repo for Keture Blog</p>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://keture.com" target="_blank">
