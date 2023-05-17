@@ -31,6 +31,6 @@
 
 ## Show your support by giving ⭐️
 
-Copyright © Keture 2022 | All Rights Reserved.
+Copyright © Keture 2023 | All Rights Reserved.
 
 </div>
