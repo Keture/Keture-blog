@@ -35,7 +35,7 @@ npx create-react-app firebase-hosting-demo
 
 This command will set up a new React app for you with the name **"firebase-hosting-demo"**.
 
-## Install Firebase toll on your local System.
+## Install Firebase tool on your local System.
 
 The next step is to install Firebase tools which are necessary for deploying your app. To install these tools, run the following command:
 
@@ -108,3 +108,59 @@ firebase deploy
 ```
 
 and Firebase will provide you with a unique URL where your deployed app can be accessed. This URL will be secured with https, which is another benefit of Firebase hosting. With the quick and easy deployment process, you're all set to enjoy the benefits of Firebase hosting.
+
+## Firebase hosting through the **CI/CD** method.
+
+Before we delve into this topic, let's briefly discuss **Continuous Integration** and **Continuous Deployment** (CI/CD).
+
+## What is **CI/CD**? and How it's work?
+
+CI/CD, or Continuous Integration and Continuous Deployment, is a software development practice that automates the process of building, testing, and deploying applications. It enables frequent and reliable releases, enhances collaboration, reduces risks, and ensures faster time-to-market by automating the delivery pipeline.
+
+CI/CD works by automating the software development lifecycle. It involves integrating code changes into a shared repository, followed by automated builds, tests, and deployments. Continuous Integration ensures that code changes are regularly merged and validated. Continuous Deployment automates the release process, allowing for frequent and reliable deployments to production environments.
+
+Here are some example of CI/CD tools:
+![Image description](https://ipsacfwdrqizntxwwbkg.supabase.co/storage/v1/object/public/Article%20Imgs/firebase10.png)
+
+## How to setup CI/CD for Firebase hosting.
+
+In this session, I'm using GitHub Actions as the CI/CD tool. Now, let's dive into the article on setting up GitHub Actions for Firebase Hosting. We will explore the potential challenges that may arise during the setup and discuss effective solutions to overcome them.
+
+The first step is to create a repository on GitHub, and then we need to push and commit our entire project to that repository. In this case, let's create a repository named "Hosting-on-firebase." Once we finish pushing and committing, we can proceed to clone this repository locally. Although it's ideal to do this at an early stage, in this case, we have already created the project before setting up the GitHub repository. After cloning the repository, we can open the project in our preferred code editor. In this case, I will be using Microsoft Visual Studio Code.
+
+After this process, we need to initialize the Firebase tool in our root directory using the terminal. After that, we can follow the procedure outlined below to set up GitHub Actions for Firebase Hosting.
+
+Here we use
+
+```
+firebase init
+```
+
+command for initiate firebase tools
+
+After tool is initated we can press **Y** and continue our progress.
+
+After that, The command will prompt you with some qestions. in that questions you have to select "Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys". Then, we proceed by following the instructions as mentioned previously, with a slight modification in the process.
+
+In the previous **Manual** process, we selected "No" for the question "Set up automatic builds and deploys with GitHub?" However, this time we want to utilize GitHub Actions, so we will choose **"Yes"** (**refer to the 7th photo**) to enable automatic builds and deploys.
+
+After selecting "Yes" for the question "Set up automatic builds and deploys with GitHub?" the following section will appear:
+
+![Image description](https://ipsacfwdrqizntxwwbkg.supabase.co/storage/v1/object/public/Article%20Imgs/firebase11.png)
+
+In this section, we need to provide our GitHub username and the repository where we have set up GitHub Actions. As shown in the instructions, we should write it in the following format: "username/hosting-on-firebase" (replace "username" with your actual GitHub username and "hosting-on-firebase" with the name of your repository).
+
+After providing the answer to the previous question, several questions will be prompted in our terminal. We need to answer these questions accordingly, this photo:
+![Image description](https://ipsacfwdrqizntxwwbkg.supabase.co/storage/v1/object/public/Article%20Imgs/firebase12.png)
+
+After completing all the instructions mentioned above, we will notice a new folder named **"github"** appearing in our project folder. Inside this folder, two .yml files will be present: **"firebase-hosting-merge.yml"** and **"firebase-hosting-pull-request.yml"**. These files will be structured as per the requirements outlined in the instructions.
+
+firebase-hosting-pull-request.yml:
+![Image description](https://ipsacfwdrqizntxwwbkg.supabase.co/storage/v1/object/public/Article%20Imgs/firebase13.png)
+
+firebase-hosting-merge.yml:
+![Image description](https://ipsacfwdrqizntxwwbkg.supabase.co/storage/v1/object/public/Article%20Imgs/firebase14.png)
+
+These steps conclude the setup of GitHub Actions for Firebase hosting. Once completed, we can carry out our daily work on the project, make changes, save them, and push and commit them to the GitHub repository. When we push these changes to the repository, GitHub Actions will automatically handle the deployment process to Firebase for us. However, it's important to note that certain faults or issues may arise during this process. Let's now discuss some potential challenges and how to address them.
+
+## What problems may occour during this progress? and How we solve them?
