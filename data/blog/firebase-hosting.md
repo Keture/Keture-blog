@@ -162,5 +162,3 @@ firebase-hosting-merge.yml:
 ![Image description](https://ipsacfwdrqizntxwwbkg.supabase.co/storage/v1/object/public/Article%20Imgs/firebase14.png)
 
 These steps conclude the setup of GitHub Actions for Firebase hosting. Once completed, we can carry out our daily work on the project, make changes, save them, and push and commit them to the GitHub repository. When we push these changes to the repository, GitHub Actions will automatically handle the deployment process to Firebase for us. However, it's important to note that certain faults or issues may arise during this process. Let's now discuss some potential challenges and how to address them.
-
-## What problems may occour during this progress? and How we solve them?
